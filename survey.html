@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey.css">
+
+  </head>
+  <div class="container">
+  <body>
+    <main>
+    <h1 id="title"><span>Customer Satisfaction</span></h1>
+    <p id="description">Help us improve our services!</p>
+    <form id="survey-form">
+<div id="user-info" style="position: relative; left: 80px;">
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Your name" required>
+      <button class="firstbutton" type="submit"></button><br>
+      <div id="e-div">
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Your email" required>
+      </div>
+      <button class="secondbutton" type="submit"></button><br>
+      
+      <label for="number" id="number-label">Age</label>
+      <input id="number" type="number" min="10" max="99" placeholder="Your age" required>
+      <button class="thirdbutton" type="submit"></button><br>
+</div>
+      <label for="dropdown" style="position: relative; top: 10px; left: 50px">Are you overall satisfied with our services?</label>
+      <br>
+      <select id="dropdown">
+        <option value="yes">Yes, I am.</option>
+        <option value="no">No, I am not.</option>
+        <option value="better">It could be better.</option>
+      </select>
+<br>
+<div id="radios" style="position: relative; margin-top: 30px; left:100px;">
+  <p>How did you hear about us?</p>
+ <input type="radio" name="improve" id="opone" value="Online" >
+ <label for="opone">Online</label>
+ <br>
+ <input type="radio" name="improve" id="optwo" value="Friends">
+ <label for="optwo">Friends & Family</label>
+<br>
+ <input type="radio" name="improve" id="opthree" value="other">
+ <label for="opthree">Other</label>
+</div>
+<br>
+<div id="checkboxes">
+  <p>What are your complains?</p>
+ <input type="checkbox" id="check1" value="delivery">
+ <label for="check1">Slow delivery</label>
+<br>
+   <input type="checkbox" id="check2" value="contact">
+   <label for="check2">Hard to contact</label>
+   <br>
+   <input type="checkbox" id="check3" value="schedule">
+   <label for="check3">Our schedule</label>
+</div>
+   <br>
+<p style="position: relative; left: 85px;">Anything you would like to add?</p>
+<textarea rows="6" cols="30" ></textarea>
+<br>
+<input type="submit" id="submit">
+</form>
+</main>
+  </body>
+  </div>
+</html>

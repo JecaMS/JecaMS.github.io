@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+button {
+    visibility: hidden;
+}
+#number {
+    position: relative;
+    width: 162px;
+   left: 12px;
+}
+html {
+    position: relative;
+    display: table;
+    margin: auto;
+    left: 0px;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    
+}
+body {
+   font-family: 'Cormorant SC', monospace;
+}
+
+form {
+    position: relative;
+    margin-top: 20px;
+    
+}
+#description {
+    position: relative;
+    left: 145px;
+    bottom: 15px;
+}
+#title {
+    position: relative;
+    left: 35px;
+    display: block;
+    border-radius: 20px aqua;
+    font-weight: bolder;
+
+}
+#submit {
+    position: relative;
+   margin-top: 10px;
+   left: 80px;
+   padding: 10px 100px 10px 100px;
+   border: none;
+   background-color: darkgoldenrod;
+   font-weight: bold;
+   color: white;
+   
+}
+textarea {
+
+    position: relative;
+    margin-top: 5px;
+    left: 80px;
+}
+#checkboxes {
+    position: relative;
+    margin-top: 20px;
+    left: 100px
+}
+#dropdown {
+    position: relative;
+    margin-top: 15px;
+    left: 140px;
+}
+h1 {
+    display: flex;
+    border-radius: 30px;
+    margin: 0px auto 0px auto;
+    padding: 2px;
+    color:#ffffff;
+    background-color:darkgoldenrod;
+}
+input {
+    accent-color: darkgoldenrod;
+    border-radius: 5px;
+}
+#e-div {
+    position: relative;
+    right: 2px;
+    margin-top: 20px;
+}
